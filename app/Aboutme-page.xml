@@ -1,0 +1,34 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="My About Me App" icon="" />
+    <ScrollView>
+        <StackLayout class="mainPage">
+            <Label text="About Me Page" class="Header" />
+
+            <GridLayout rows="*,*" columns="*,*">
+                <Label textWrap="true" text="   I'm Colby McManis, a small-town boy from Girard, Kansas, with a deep passion for technology and engineering. I'm currently a senior at Pittsburg State University, majoring in Computer Science with a minor in Mathematics, maintaining a stellar GPA of 4.0. My interests span across various domains, including AI, Substation Design Engineering, Software Development, and Mathematical Proofs." verticalAlignment="center" width="250" height="auto" row="0" col="0" class="text-column" />
+
+                <Image src="images/BVHeadshot.jpg" width="auto" height="200" row="0" col="1" class="image-column" />
+
+                 <Label textWrap="true" margin="10" text="   During my academic journey, I had the incredible opportunity to intern at Black and Veatch in Overland Park, Kansas, as an Electrical Engineering Intern. The picture to the right is a photo from my first day at Black and Veatch. In this role, I efficiently managed project schedules, optimized resources, and ensured on-time, on-budget project delivery. My specialization in high-voltage substation design allowed me to maintain technical documentation and collaborate with multidisciplinary teams to seamlessly integrate substation designs into larger infrastructure projects. I also worked closely with clients to ensure their requirements were met." verticalAlignment="center" width="250" height="auto" row="2" col="0" class="text-column" />
+
+                 <Image src="images/balloonsBV.jpg" width="auto" height="200" row="1" col="1" class="image-column" />
+
+
+            </GridLayout>
+
+            
+            <Label textWrap="true" margin="10" text="   I've earned several honors, including the Black and Veatch Scholarship, and consistently made the President's Honor Roll. I'm also a proud member of the Phi Kappa Phi Honor Society. In addition, I'm an active member of professional associations such as the International Society of Automation, The Institute of Electrical and Electronics Engineers, and the Pittsburg State University Computer Science Club."/>
+
+            <Label textWrap="true" text="To learn more about me or contact me," class="Subheader"  />
+
+            <Label textWrap="true" text="click one of the buttons below!" class="Subheader" />
+
+            <Button text="Home Page" class="primary" tap="onHomePageButtonTap" />
+
+            <Button text="Skills" class="primary" tap="onSkillsButtonTap" />
+
+            <Button text="Contact Me" class="primary" tap="onContactMeButtonTap" />
+
+        </StackLayout>
+    </ScrollView>
+</Page>

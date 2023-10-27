@@ -1,0 +1,15 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="My About Me App" icon="" />
+    <ScrollView>
+        <StackLayout>
+            <Label text="Skills Page" class="Header" />
+            <Label textWrap="true" text="To learn more about me or contact me," class="Subheader" style="marginTop: 10" />
+            <Label textWrap="true" text="click one of the buttons below!" class="Subheader" />
+
+            <Button text="Home Page" class="primary" tap="onHomePageButtonTap" />
+            <Button text="About Me" class="primary" tap="onAboutMeButtonTap" />
+            <Button text="Contact Me" class="primary" tap="onContactMeButtonTap" />
+
+        </StackLayout>
+    </ScrollView>
+</Page>

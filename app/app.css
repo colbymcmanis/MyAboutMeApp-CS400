@@ -1,0 +1,50 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary {
+  font-size: 25px; /* Specify the unit (e.g., px) for the font size */
+  border-radius: 125px;
+  margin: 15, 0, 15, 0;
+  background-color: #fff;; 
+  color: #3498db;
+}
+
+.Header {
+  font-size: 50px;
+  text-align: center;
+  margin: 0, 0, 15, 0;
+}
+
+.Subheader {
+  font-size: 20px;
+  text-align: center;
+}
+
+.mainPage{
+  background-color: #3498db; 
+  color: #fff;
+}
+
+.Aboutme-page{
+  background-color: #3498db; 
+  color: #fff;
+}
+
+
+
+.text-column{
+  padding-left: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+
+.image-column{
+  padding-right: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
