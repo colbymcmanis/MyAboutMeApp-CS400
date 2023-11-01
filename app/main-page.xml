@@ -2,14 +2,14 @@
     <ActionBar title="My About Me App" icon="" />
     <ScrollView>
     <StackLayout class="p-4" class="mainPage"> 
-        <Image src="images/Girard.jpg" width="100%" height="auto" />
+        <Image src="~/images/Girard.jpg" width="100%" height="auto" />
     <Label text="Introduction" class="Header" />
     <StackLayout>
         <GridLayout rows="auto" columns="*,*">
 
             <Label textWrap="true" text="Hello! I'm Colby McManis, a small-town boy turned future engineer. Born and raised in the Small Kansas town of Girard. I am currently a senior studying Computer Science with a minor in Mathematicd at Pittsburg State University in Pittsburg Kansas. Current area that pique my interest is AI, Substation Design Engineering, Software Developement, and Mathematical Proofs." verticalAlignment="center" width="250" height="auto" row="0" col="0" class="text-column" />
 
-            <Image src="images/Headshot.jpg" width="auto" height="250" row="0" col="1" class="image-column" />
+            <Image src="~/images/Headshot.jpg" width="auto" height="250" row="0" col="1" class="image-column" />
         </GridLayout>
 
             <Label textWrap="true" text="To learn more about me or contact me," class="Subheader" style="marginTop: 10" />
