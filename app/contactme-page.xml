@@ -6,15 +6,24 @@
             <Label text="Contact Me Form" class="Header" />
 
 
-            <Label textWrap="true" id="Submission Successful" class="Header" />
+            <Label textWrap="true" id="SubmissionSuccessful" class='text-xl text-center' />
 
-            <TextField id="NameFirst" hint="Enter First Name"/>
-            <TextField id="NameLast" hint="Enter Last Name"/>
-            <TextField id="Email" hint="Enter Email"/>
-            <TextField id="PhoneNumber" hint="Enter Phone Number"/>
-            <TextField id="ContactMessage" hint="Enter Message"/>
+            <Label textWrap="true" text="Enter First Name" class='text-lg ml-4 mt-5' />
+            <TextField id="NameFirst" class="text-lg border rounded"/>
 
-            <Button text="Submit" class="primary" tap="onSubmitButtonTap" />
+            <Label textWrap="true" text="Enter Last Name" class='text-lg ml-4 mt-5' />
+            <TextField id="NameLast" class="text-lg border rounded"/>
+
+            <Label textWrap="true" text="Enter Email" class='text-lg ml-4 mt-5' />
+            <TextField id="Email" class="text-lg border rounded" keyboardType="email"/>
+
+            <Label textWrap="true" text="Enter Phone Number" class='text-lg ml-4 mt-5' />
+            <TextField id="PhoneNumber"  class="text-lg border rounded" keyboardType="phone"/>
+
+            <Label textWrap="true" text="Enter Message" class='text-lg ml-4 mt-5' />
+            <TextField id="ContactMessage"  class="text-lg border rounded"/>
+
+            <Button text="Submit" class="primary mt-5" tap="onSubmitButtonTap" />
 
           
             <Label textWrap="true" text="To learn more about me or contact me," class="Subheader" style="marginTop: 10" />
