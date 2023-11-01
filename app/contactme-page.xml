@@ -3,6 +3,11 @@
       <ScrollView>
          <StackLayout class="mainPage">
 
+            <Label text="Contact Me Form" class="Header" />
+
+
+            <Label textWrap="true" id="Submission Successful" class="Header" />
+
             <TextField id="NameFirst" hint="Enter First Name"/>
             <TextField id="NameLast" hint="Enter Last Name"/>
             <TextField id="Email" hint="Enter Email"/>
@@ -11,7 +16,7 @@
 
             <Button text="Submit" class="primary" tap="onSubmitButtonTap" />
 
-            <Label text="Contact Me Form" class="Header" />
+          
             <Label textWrap="true" text="To learn more about me or contact me," class="Subheader" style="marginTop: 10" />
             <Label textWrap="true" text="click one of the buttons below!" class="Subheader" />
 
