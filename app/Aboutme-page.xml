@@ -7,11 +7,11 @@
             <GridLayout rows="*,*" columns="*,*">
                 <Label textWrap="true" text="   I'm Colby McManis, a small-town boy from Girard, Kansas, with a deep passion for technology and engineering. I'm currently a senior at Pittsburg State University, majoring in Computer Science with a minor in Mathematics, maintaining a stellar GPA of 4.0. My interests span across various domains, including AI, Substation Design Engineering, Software Development, and Mathematical Proofs." verticalAlignment="center" width="250" height="auto" row="0" col="0" class="text-column" />
 
-                <Image src="~/mages/BVHeadshot.jpg" width="auto" height="200" row="0" col="1" class="image-column" />
+                <Image src="~/images/BVHeadshot.jpg" width="auto" height="200" row="0" col="1" class="image-column" />
 
                  <Label textWrap="true" margin="10" text="   During my academic journey, I had the incredible opportunity to intern at Black and Veatch in Overland Park, Kansas, as an Electrical Engineering Intern. The picture to the right is a photo from my first day at Black and Veatch. In this role, I efficiently managed project schedules, optimized resources, and ensured on-time, on-budget project delivery. My specialization in high-voltage substation design allowed me to maintain technical documentation and collaborate with multidisciplinary teams to seamlessly integrate substation designs into larger infrastructure projects. I also worked closely with clients to ensure their requirements were met." verticalAlignment="center" width="250" height="auto" row="2" col="0" class="text-column" />
 
-                 <Image src="~?images/balloonsBV.jpg" width="auto" height="200" row="1" col="1" class="image-column" />
+                 <Image src="~/images/balloonsBV.jpg" width="auto" height="200" row="1" col="1" class="image-column" />
 
 
             </GridLayout>
