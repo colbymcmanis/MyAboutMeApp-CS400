@@ -5,6 +5,7 @@
 
             <Label text="Contact Me Form" class="Header" />
 
+            <Image src="~/images/ContactIcon.jpg" width="100%" height="auto" />
 
             <Label textWrap="true" id="SubmissionSuccessful" class='text-xl text-center' />
 
