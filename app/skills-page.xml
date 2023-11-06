@@ -3,11 +3,11 @@
     <ScrollView>
         <StackLayout class="mainPage">
             <Label text="Skills Page" class="Header" />
-            <Label text="My Skills" />
+            <Label text="My Skills List" class="Header" />
             <ListView id="myListView" itemTap="onItemTap">
                 <ListView.itemTemplate>
                     <StackLayout>
-                        <Label class="text-xl" text="{{ name}}" />
+                        <Label class="text-xl" text="{{ name }}" />
                     </StackLayout>
                 </ListView.itemTemplate>
             </ListView>
@@ -16,11 +16,11 @@
 
             <Label textWrap="true" text="To learn more about me or contact me," class="Subheader" style="marginTop: 10" />
             <Label textWrap="true" text="click one of the buttons below!" class="Subheader" />
-
+<StackLayout>
             <Button text="Home Page" class="primary" tap="onHomePageButtonTap" />
             <Button text="About Me" class="primary" tap="onAboutMeButtonTap" />
             <Button text="Contact Me" class="primary" tap="onContactMeButtonTap" />
-
+</StackLayout>
         </StackLayout>
     </ScrollView>
 </Page>
