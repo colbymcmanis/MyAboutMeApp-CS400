@@ -1,4 +1,4 @@
-<Page loaded ="pageloaded" xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+<Page loaded ="pageLoaded" xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
     <ActionBar title="My About Me App" icon="" />
     <ScrollView>
         <StackLayout class="mainPage">
@@ -7,7 +7,7 @@
             <ListView id="myListView" itemTap="onItemTap">
                 <ListView.itemTemplate>
                     <StackLayout>
-                        <Label class="text-xl" text="{{ name }}" />
+                        <Label class="text-lg" text="{{ name }}" />
                     </StackLayout>
                 </ListView.itemTemplate>
             </ListView>
@@ -16,11 +16,11 @@
 
             <Label textWrap="true" text="To learn more about me or contact me," class="Subheader" style="marginTop: 10" />
             <Label textWrap="true" text="click one of the buttons below!" class="Subheader" />
-<StackLayout>
+
             <Button text="Home Page" class="primary" tap="onHomePageButtonTap" />
             <Button text="About Me" class="primary" tap="onAboutMeButtonTap" />
             <Button text="Contact Me" class="primary" tap="onContactMeButtonTap" />
-</StackLayout>
+
         </StackLayout>
     </ScrollView>
 </Page>
