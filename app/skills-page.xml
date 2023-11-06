@@ -7,7 +7,6 @@
             <ListView id="myListView" itemTap="onItemTap">
                 <ListView.itemTemplate>
                     <StackLayout>
-                        <Label text ="name:"/>
                         <Label class="text-xl" text+"{{ name}}" />
                     </StackLayout>
                 </ListView.itemTemplate>
